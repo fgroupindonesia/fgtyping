@@ -1,0 +1,6 @@
+
+create a shortcut calling :
+- javaw.exe
+
+with arguments of :
+-jar FGTyping.jar
