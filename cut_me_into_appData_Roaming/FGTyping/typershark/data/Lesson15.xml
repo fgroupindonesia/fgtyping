@@ -1,0 +1,69 @@
+<LESSON>
+
+<HEADINGS>
+	<1>Go quickly, but not at the expense of accuracy!</1>
+	<2>Good! Keep going!</2>
+	<3>Ok, you're just about halfway done.</3>
+	<4>Getting closer... keep it up!</4>
+	<5>Last one!</5>
+
+
+</HEADINGS>
+
+
+<DESCRIPTION>The fifteenth lesson gives you practice at speed and accuracy. Get 30+ WPM and 90% accuracy to pass!</DESCRIPTION>
+
+
+
+<LessonTime>-1</LessonTime>
+<MaxErrors>-1</MaxErrors>
+<MinWPM>30</MinWPM>
+<MinAccuracy>90</MinAccuracy>
+
+
+<TASK>
+<HEADING>1</HEADING>
+<TEXT>Aesop's Fables: The Dolphins, the Whales, and the Sprat</TEXT>
+<TEXT>The Dolphins and Whales were once waging a fierce war.</TEXT>
+<TEXT>When the battle was at its height, a Sprat lifted its head </TEXT>
+<TEXT>out of the waves and said that he would reconcile their...</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>2</HEADING>
+<TEXT>differences if they would accept him as an umpire. One of</TEXT>
+<TEXT>the Dolphins replied, &quot;We would far rather be destroyed</TEXT>
+<TEXT>in our battle with each other than admit any interference</TEXT>
+<TEXT>from you in our affairs.&quot;</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>3</HEADING>
+<TEXT>Aesop's Fables: The Fisherman and the Little Fish</TEXT>
+<TEXT>A FISHERMAN who lived on the produce of his nets, one</TEXT>
+<TEXT>day caught a single small Fish as the result of his day's</TEXT>
+<TEXT>labor. The Fish, panting convulsively, thus entreated for...</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>4</HEADING>
+<TEXT>his life:  &quot;O Sir, what good can I be to you, and how</TEXT>
+<TEXT>little am I worth? I am not yet come to my full size.</TEXT>
+<TEXT>Pray spare my life, and put me back into the sea. I</TEXT>
+<TEXT>shall soon become a large fish fit for the tables of the</TEXT>
+
+</TASK>
+
+<TASK>
+<HEADING>5</HEADING>
+<TEXT>rich, and then you can catch me again, and make a tidy</TEXT>
+<TEXT>profit of me.&quot;  The Fisherman replied, &quot;I should indeed</TEXT>
+<TEXT>be a fool if, for the chance of a greater uncertain</TEXT>
+<TEXT>profit, I were to forego my present certain gain.&quot;</TEXT>
+
+</TASK>
+
+
+
+</LESSON>
+

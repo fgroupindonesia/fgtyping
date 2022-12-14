@@ -1,0 +1,55 @@
+<LESSON>
+
+<HEADINGS>
+	<1>First let's learn to use the question mark.</1>
+	<2>Now let's check out the backslash.</2>
+	<3>Next we add the hyphen!</3>
+	<4>Now let's combine all of those.</4>
+</HEADINGS>
+
+
+<DESCRIPTION>The seventh lesson will help you learn the question mark, diagonal slash, and hyphen.</DESCRIPTION>
+
+
+
+<LessonTime>-1</LessonTime>
+<MaxErrors>-1</MaxErrors>
+<MinWPM>-1</MinWPM>
+<MinAccuracy>-1</MinAccuracy>
+
+
+<TASK>
+<HEADING>1</HEADING>
+<TEXT>Where is the Ghost Ship? Who has seen it? Who has lived</TEXT>
+<TEXT>to speak of it? Who can tell us of the perils it poses?</TEXT>
+<TEXT>Who will dive to learn its secrets? And of those, you ask,</TEXT>
+<TEXT>who will survive and what will be left of them?</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>2</HEADING>
+<TEXT>The IT dept. has requested you send requests c/o the web</TEXT>
+<TEXT>page. Just send an email addressed to Bob c/o IT Services</TEXT>
+<TEXT>and he will get back to you. The problem? Apparently in</TEXT>
+<TEXT>the usr/source/files directory, someone left a bagel.</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>3</HEADING>
+<TEXT>It is first-class, this new battle-cow, proclaimed the</TEXT>
+<TEXT>chief War-Priest of the alien Sputtle-clan, Wuuj-na-fy.</TEXT>
+<TEXT>Soon they would crush the chicken-riding Beak-masters</TEXT>
+<TEXT>of their mortal foes, the Meep-sho-fang, for good.</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>4</HEADING>
+<TEXT>Where is the electro-stapler? If you have taken it, you</TEXT>
+<TEXT>should return it to Mr. Slunge immediately c/o the</TEXT>
+<TEXT>Pentagon. What good does it do you? Electro-stapling is</TEXT>
+<TEXT>only necessary for file-clerks in the MK/Mega project.</TEXT>
+</TASK>
+
+
+
+</LESSON>

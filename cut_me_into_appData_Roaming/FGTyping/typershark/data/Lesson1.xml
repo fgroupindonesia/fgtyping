@@ -1,0 +1,55 @@
+<LESSON>
+
+<HEADINGS>
+	<1>Ready? Place your hands as described in the sidebar and type:</1>
+	<2>Good work! Now let's learn the D key. Type the following:</2>
+	<3>Good! Now let's learn the semi-colon and F key.</3>
+	<4>Nice work! Now let's move on to the F key.</4>
+	<5>Swell! Now let's combine all those.</5>
+	<6>Now let's add the J and K keys.</6>
+	<7>Next, add the K key.</7>
+	<8>Finally, let's add the L key.</8>
+</HEADINGS>
+
+             
+<DESCRIPTION>This lesson will teach you basic hand positions. Rest your left hand fingers on "ASDF" and place the right hand fingers on "JKL;". Your right thumb should be resting above the space bar.</DESCRIPTION>
+
+<LessonTime>-1</LessonTime>
+<MaxErrors>-1</MaxErrors>
+<MinWPM>-1</MinWPM>
+<MinAccuracy>-1</MinAccuracy>
+
+<TASK>
+<HEADING>1</HEADING>
+<TEXT>aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa</TEXT>
+<TEXT>aaa sss aaa sss aaa sss aaa sss aaa sss aaa sss aaa</TEXT>
+<TEXT>ddd ddd ddd ddd ddd ddd asd asd asd asd asd asd</TEXT>
+<TEXT>add add add add add add add add add add add add</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>3</HEADING>
+<TEXT>;;; ;;; ;;; ;;; ;;; ;;; ;;; ;;; ;;; ;;; ;;; ;;; ;;; ;;; ;;; ;;; ;;;</TEXT>
+<TEXT>add dads; add dads; add dads; add dads; add dad;</TEXT>
+<TEXT>fff fff fff fff fff fff fff asdf asdf asdf asdf asdf asdf</TEXT>
+<TEXT>aff aff aff aff aff aff aff aff aff aff aff aff aff aff aff</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>6</HEADING>
+<TEXT>jjj jjj jjj jjj jjj jjj jjj asj asj asj asj asj asj asj asj asj</TEXT>
+<TEXT>jsd jsd jsd jsd jsd jsd jsd jsd jsd jsf jsf jsf jsf jsf jsf</TEXT>
+<TEXT>fak fak fak fak fak fak fak fak sak sak sak sak sak sak</TEXT>
+<TEXT>dak; dak; dak; dak; dak; dak; dak; dak; dak; dak; dak;</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>8</HEADING>
+<TEXT>lll lll lll lll lll lll lll lll lll jal jal jal jal jal jal jal jal jal</TEXT>
+<TEXT>lad lad lad lad lad lad lad lad lass lass lass lass lass</TEXT>
+<TEXT>sal sal sal sal sal sal sal sal sal fal fal fal fal fal fal fal</TEXT>
+<TEXT>lass; lad; lass; lad; lass; lad; lass; lad; lass; lad; lass;</TEXT>
+</TASK>
+
+
+</LESSON>

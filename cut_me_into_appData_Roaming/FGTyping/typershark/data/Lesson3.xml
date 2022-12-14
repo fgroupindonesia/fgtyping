@@ -1,0 +1,60 @@
+<LESSON>
+
+<HEADINGS>
+	<1>Let's try learning the Q,Z,S and X keys.</1>
+	<2>Very good! Now let's learn the S and X. </2>
+	<3>Now let's add E,C,R, and V.</3>
+	<4>Next, let's practice R and V!</4>
+	<5>Now let's add T and B to the mix.</5>
+	<6>Great! Now let's practice all of those.</6>
+	<7>Just about finished now!</7>
+	<8>And one last set!</8>
+</HEADINGS>
+
+
+<DESCRIPTION>The third lesson lets you start trying some of the diagonal keys on the left hand. Keep your left hand on "ASDF" and right on "JKL;".</DESCRIPTION>
+
+
+<LessonTime>-1</LessonTime>
+<MaxErrors>-1</MaxErrors>
+<MinWPM>-1</MinWPM>
+<MinAccuracy>-1</MinAccuracy>
+
+
+<TASK>
+<HEADING>1</HEADING>
+<TEXT>aqaz aqaz aqaz aqaz aqaz aqaz aqaz aqaz aqaz aqaz aqaz</TEXT>
+<TEXT>qaza qaza qaza qaza qaza qaza qaza qaza qaza qaza qaza</TEXT>
+<TEXT>swsx swsx swsx swsx swsx swsx swsx swsx swsx swsx</TEXT>
+<TEXT>xsws xsws xsws xsws xsws xsws xsws xsws xsws xsws</TEXT>
+</TASK>
+
+
+<TASK>
+<HEADING>3</HEADING>
+<TEXT>dedc dedc dedc dedc dedc dedc dedc dedc dedc dedc</TEXT>
+<TEXT>cded cded cded cded cded cded cded cded cded cded</TEXT>
+<TEXT>frfv frfv frfv frfv frfv frfv frfv frfv frfv frfv frfv frfv</TEXT>
+<TEXT>vfrf vfrf vfrf vfrf vfrf vfrf vfrf vfrf vfrf vfrf vfrf vfrf</TEXT>
+</TASK>
+
+
+<TASK>
+<HEADING>5</HEADING>
+<TEXT>gtgb gtgb gtgb gtgb gtgb gtgb gtgb gtgb gtgb gtgb</TEXT>
+<TEXT>gtgb gtgb gtgb gtgb gtgb gtgb gtgb gtgb gtgb gtgb</TEXT>
+<TEXT>aqaz swsx dedc frfv gtgb aqaz swsx dedc frfv gtgb aqaz</TEXT>
+<TEXT>aqaz swsx dedc frfv gtgb aqaz swsx dedc frfv gtgb aqaz</TEXT>
+</TASK>
+
+
+<TASK>
+<HEADING>8</HEADING>
+<TEXT>zaqa xsws cded vfrf bgtg zaqa xsws cded vfrf bgtg zaqa</TEXT>
+<TEXT>aqaz swsx dedc frfv gtgb aqaz swsx dedc frfv gtgb aqaz</TEXT>
+<TEXT>zaqa xsws cded vfrf bgtg zaqa xsws cded vfrf bgtg zaqa</TEXT>
+<TEXT>aqaz swsx dedc frfv gtgb aqaz swsx dedc frfv gtgb aqaz</TEXT>
+</TASK>
+
+
+</LESSON>

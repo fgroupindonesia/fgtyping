@@ -1,0 +1,55 @@
+<LESSON>
+
+<HEADINGS>
+	<1>Ok, let's get started!</1>
+	<2>Keep going!</2>
+	<3>Okay, let's mix it up a bit.</3>
+	<4>Great! Let's practice one more time.</4>
+</HEADINGS>
+
+
+<DESCRIPTION>The fifth lesson is a review. You should now be able to type the whole alphabet quickly.</DESCRIPTION>
+
+
+
+<LessonTime>-1</LessonTime>
+<MaxErrors>-1</MaxErrors>
+<MinWPM>-1</MinWPM>
+<MinAccuracy>-1</MinAccuracy>
+
+
+<TASK>
+<HEADING>1</HEADING>
+<TEXT>abcdefg abcdefg abcdefg abcdefg abcdefg abcdefg abcdefg</TEXT>
+<TEXT>abcdefg abcdefg abcdefg abcdefg abcdefg abcdefg abcdefg</TEXT>
+<TEXT>hijklmnop hijklmnop hijklmnop hijklmnop hijklmnop hijklm</TEXT>
+<TEXT>hijklmnop hijklmnop hijklmnop hijklmnop hijklmnop hijklm</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>2</HEADING>
+<TEXT>qrstuvwxyz qrstuvwxyz qrstuvwxyz qrstuvwxyz qrstuvwxyz</TEXT>
+<TEXT>qrstuvwxyz qrstuvwxyz qrstuvwxyz qrstuvwxyz qrstuvwxyz</TEXT>
+<TEXT>abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz</TEXT>
+<TEXT>abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>3</HEADING>
+<TEXT>abcdefg qrstuvwxyz hijklmnop abcdefg qrstuvwxyz hijklm</TEXT>
+<TEXT>qrstuvwxyz abcdefg hijklmop qrstuvwxyz abcdefg hijklmn</TEXT>
+<TEXT>abcdefg qrstuvwxyz hijklmnop abcdefg qrstuvwxyz hijklm</TEXT>
+<TEXT>qrstuvwxyz abcdefg hijklmop qrstuvwxyz abcdefg hijklmn</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>4</HEADING>
+<TEXT>abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz</TEXT>
+<TEXT>abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz</TEXT>
+<TEXT>abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz</TEXT>
+<TEXT>abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz</TEXT>
+</TASK>
+
+
+
+</LESSON>

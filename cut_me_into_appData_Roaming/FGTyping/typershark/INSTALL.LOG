@@ -1,0 +1,73 @@
+***  Installation Started 09/28/2022 17:06  ***
+Title: Typer Shark Installation
+Source: D:\backedup\Kursus\materi\aplikasi-perkantoran\typershark\POPCAP.Typer.Shark.Deluxe.[FullVersion].EXE | 12-23-2012 | 22:16:46 | 4608062
+File Copy: C:\Users\asus\AppData\Roaming\fgroupindonesia\FGTyping\typershark\UNWISE.EXE | 07-26-2002 | 17:02:06 | | 153088 | 5be5019b
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\Typer Shark
+RegDB Val: Typer Shark
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\Typer Shark
+RegDB Val: C:\Users\asus\AppData\Roaming\fgroupindonesia\FGTyping\typershark\UNWISE.EXE C:\Users\asus\AppData\Roaming\fgroupindonesia\FGTyping\typershark\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+File Copy: C:\Users\asus\AppData\Roaming\fgroupindonesia\FGTyping\typershark\MAIN.exe | 03-18-2005 | 14:14:52 | 4.13.0.0 | 4302016 | eceb7ce6
+Shell Link: C:\Users\asus\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Typer Shark\Typer Shark.lnk
+Link Info: C:\Users\asus\AppData\Roaming\fgroupindonesia\FGTyping\typershark\WinTS.exe | C:\Users\asus\AppData\Roaming\fgroupindonesia\FGTyping\typershark |  | 0 | 1 | 0 | 
+Shell Link: C:\Users\asus\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Typer Shark\Typer Shark Uninstall.lnk
+Link Info: C:\Users\asus\AppData\Roaming\fgroupindonesia\FGTyping\typershark\UNWISE.EXE | C:\Users\asus\AppData\Roaming\fgroupindonesia\FGTyping\typershark |  | 0 | 1 | 0 | 
+RegDB Key: SOFTWARE\PopCap\TyperShark
+RegDB Val: 0
+RegDB Name: InProgress
+RegDB Root: 2
+RegDB Key: SOFTWARE\PopCap\TyperShark
+RegDB Val: 85
+RegDB Name: MusicVolume
+RegDB Root: 2
+RegDB Key: SOFTWARE\PopCap\TyperShark
+RegDB Val: 85
+RegDB Name: SfxVolume
+RegDB Root: 2
+RegDB Key: SOFTWARE\PopCap\TyperShark
+RegDB Val: 0
+RegDB Name: Muted
+RegDB Root: 2
+RegDB Key: SOFTWARE\PopCap\TyperShark
+RegDB Val: 0
+RegDB Name: ScreenMode
+RegDB Root: 2
+RegDB Key: SOFTWARE\PopCap\TyperShark
+RegDB Val: 0
+RegDB Name: CustomCursors
+RegDB Root: 2
+RegDB Key: SOFTWARE\PopCap\TyperShark
+RegDB Val: 0
+RegDB Name: ITSuccess
+RegDB Root: 2
+RegDB Key: SOFTWARE\PopCap\TyperShark
+RegDB Val: 0
+RegDB Name: TimesPlayed
+RegDB Root: 2
+RegDB Key: SOFTWARE\PopCap\TyperShark
+RegDB Val: 1
+RegDB Name: TimesExecuted
+RegDB Root: 2
+RegDB Key: SOFTWARE\PopCap\TyperShark
+RegDB Val: 1111520052
+RegDB Name: LastVerCheckQueryTime
+RegDB Root: 2
+RegDB Key: SOFTWARE\PopCap\TyperShark
+RegDB Val: 0
+RegDB Name: WaitForVSync
+RegDB Root: 2
+RegDB Key: SOFTWARE\PopCap\TyperShark
+RegDB Val: kingzht
+RegDB Name: RegName
+RegDB Root: 2
+RegDB Key: SOFTWARE\PopCap\TyperShark
+RegDB Val: 7UQ49-HUYGK-VR3WG-ZVMA6
+RegDB Name: RegCode
+RegDB Root: 2
+File Tree: C:\Users\asus\AppData\Roaming\fgroupindonesia\FGTyping\typershark\
+RegDB Tree: SOFTWARE\PopCap\TyperShark
+RegDB Root: 2
+User Rights: Admin

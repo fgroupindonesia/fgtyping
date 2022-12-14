@@ -1,0 +1,86 @@
+<LESSON>
+
+<HEADINGS>
+	<1>First an exercise to loosen up.</1>
+	<2>This is a good warm-up sentence.</2>
+	<3>This sentence contains most of the letters of the alphabet.</3>
+	<4>Ok, now go as fast as you can while remaining accurate!</4>
+	<5>Don't slow down, but try not to make too many errors.</5>
+	<6>Almost done! Don't let up.</6>
+    <7>Just one last set!</7>
+
+</HEADINGS>
+
+
+<DESCRIPTION>The eighth lesson is designed to increase your typing speed. You must achieve at least 25 Words Per Minute to pass.</DESCRIPTION>
+
+
+
+<LessonTime>-1</LessonTime>
+<MaxErrors>-1</MaxErrors>
+<MinWPM>25</MinWPM>
+<MinAccuracy>-1</MinAccuracy>
+
+
+<TASK>
+<HEADING>1</HEADING>
+<TEXT>aqa aza sws sxs ded dcd frf ftf fgf fbf fvf juj jyj jhj</TEXT>
+<TEXT>aqa aza sws sxs ded dcd frf ftf fgf fbf fvf juj jyj jhj</TEXT>
+<TEXT>jnj jmj kik k,k lol l.l ;p; ;/; ;?; ;?; ;?; ;-; ;-; ;-;</TEXT>
+<TEXT>jnj jmj kik k,k lol l.l ;p; ;/; ;?; ;?; ;?; ;-; ;-; ;-;</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>2</HEADING>
+<TEXT>Now is the time for all good men to come to the aid of</TEXT>
+<TEXT>the party. Now is the time for all good men to come to</TEXT>
+<TEXT>the aid of the party. Now is the time for all good men</TEXT>
+<TEXT>to come to the aid of the party. Now is the time!</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>3</HEADING>
+<TEXT>The quick brown fox jumped over the lazy dog. The quick</TEXT>
+<TEXT>brown fox jumped over the lazy dog. The quick brown</TEXT>
+<TEXT>fox jumped over the lazy dog. The quick brown fox</TEXT>
+<TEXT>jumped over the lazy dog. That's what the fox did!</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>4</HEADING>
+<TEXT>Most jobs that involve typing will require you to have a</TEXT>
+<TEXT>minimum Words Per Minute of 25 or more. Jobs that</TEXT>
+<TEXT>focus on typing will require WPM scores in excess of this:</TEXT>
+<TEXT>many clerical jobs require a minimum 35 WPM.</TEXT>
+</TASK>
+
+
+
+
+<TASK>
+<HEADING>5</HEADING>
+<TEXT>Jobs that require swift transcription often require a</TEXT>
+<TEXT>WPM even higher than this. Paralegals and receptionists</TEXT>
+<TEXT>often need a WPM of 50 or more. Transcriptionists or</TEXT>
+<TEXT>full-time word processors might require 70 WPM or more!</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>6</HEADING>
+<TEXT>Your Words Per Minute is calculated by subtracting the</TEXT>
+<TEXT>number of errors you make from your raw score at the</TEXT>
+<TEXT>end of the test. Accuracy is more important than sheer</TEXT>
+<TEXT>speed! Too many errors will really bring your WPM down.</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>7</HEADING>
+<TEXT>While word processors and spell checkers make it easier</TEXT>
+<TEXT>to correct mistakes today, accuracy is still your chief</TEXT>
+<TEXT>concern. Don't go so fast that you get sloppy! Your speed</TEXT>
+<TEXT>will naturally increase with practice as you go.</TEXT>
+</TASK>
+
+
+</LESSON>
+

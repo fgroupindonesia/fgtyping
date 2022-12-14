@@ -1,0 +1,35 @@
+<LESSON>
+
+<HEADINGS>
+	<1>Type the following as quickly and accurately as you can:</1>
+	<2>Good! Finish typing this as quickly as you can.</2>
+
+</HEADINGS>
+
+
+<DESCRIPTION>This test will determine your typing speed and accuracy. Then we'll know what your recommended difficulty level in the game is! If you would like to skip and go on to another lesson, just press the "Next Lesson" button.</DESCRIPTION>
+
+<LessonTime>-1</LessonTime>
+<MaxErrors>-1</MaxErrors>
+<MinWPM>-1</MinWPM>
+<MinAccuracy>-1</MinAccuracy>
+
+
+<TASK>
+<HEADING>1</HEADING>
+<TEXT>The old sea-dogs say that for nearly a century</TEXT>
+<TEXT>these waters have been home to mysterious storms</TEXT>
+<TEXT>and whirlpools. Dozens of ships, laden with</TEXT>
+<TEXT>treasure, have gone to the bottom of the ocean!</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>2</HEADING>
+<TEXT>Over the years many adventurers have tried to find</TEXT>
+<TEXT>this precious booty. But these waters swarm with</TEXT>
+<TEXT>vicious creatures: tigersharks, hammerheads, ghost</TEXT>
+<TEXT>sharks, and worse! Now, it's your turn to dive...</TEXT>
+</TASK>
+
+
+</LESSON>

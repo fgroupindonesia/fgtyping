@@ -1,0 +1,59 @@
+<LESSON>
+
+<HEADINGS>
+	<1>Start typing! Go quickly, but carefully.</1>
+	<2>Remember, your accuracy must remain at 90%.</2>
+	<3>You're halfway there!</3>
+	<4>Last section! Keep it up!</4>
+
+
+</HEADINGS>
+
+
+<DESCRIPTION>The thirteenth lesson is timed! Finish in 5 minutes with accuracy of 90% or better.</DESCRIPTION>
+
+
+
+<LessonTime>300</LessonTime>
+<MaxErrors>-1</MaxErrors>
+<MinWPM>-1</MinWPM>
+<MinAccuracy>-1</MinAccuracy>
+
+
+<TASK>
+<HEADING>1</HEADING>
+<TEXT>Dear Mr. Pim,</TEXT>
+<TEXT>   My assistant informs me that you are unhappy with the</TEXT>
+<TEXT>services provided by our company. I am both shocked and</TEXT>
+<TEXT>sad to hear this, as you have been a valuable client.</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>2</HEADING>
+<TEXT>It would be very unfortunate if our relationship was to be</TEXT>
+<TEXT>terminated due to a misunderstanding. In regards to this,</TEXT>
+<TEXT>I'd be grateful if you could forward us the documents in</TEXT>
+<TEXT>question, preferably those relating to the accident itself.</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>3</HEADING>
+<TEXT>For my part, I am doing my best to understand how such</TEXT>
+<TEXT>a mistake could have been made in the first place. I can</TEXT>
+<TEXT>assure you that those responsible for the spillage will</TEXT>
+<TEXT>be determined and appropriate disciplinary action taken.</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>4</HEADING>
+<TEXT>I do hope we can resolve this issue swiftly and fairly, to</TEXT>
+<TEXT>the satisfaction of all parties.</TEXT>
+<TEXT>Sincerely yours,</TEXT>
+<TEXT>Sinclair P. Lewis, CEO GloboMilkTech Inc.</TEXT>
+</TASK>
+
+
+
+
+</LESSON>
+

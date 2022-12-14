@@ -1,0 +1,85 @@
+<LESSON>
+
+<HEADINGS>
+	<1>Text from &quot;Lair of the White Worm&quot; by Bram Stoker!</1>
+	<2>Keep going, maintaining a steady tempo.</2>
+	<3>Good job... remember to pace yourself.</3>
+	<4>You're halfway done! Good work!</4>
+	<5>Getting there... don't give up!</5>
+	<6>Just one more after this...</6>
+	<7>Whew! Last one.</7>
+</HEADINGS>
+
+
+<DESCRIPTION>The seventeenth lesson tests endurance! Maintain 30wpm throughout!</DESCRIPTION>
+
+
+<LessonTime>-1</LessonTime>
+<MaxErrors>-1</MaxErrors>
+<MinWPM>30</MinWPM>
+<MinAccuracy>-1</MinAccuracy>
+
+
+<TASK>
+<HEADING>1</HEADING>
+<TEXT>Adam Salton sauntered into the Empire Club, Sydney,</TEXT>
+<TEXT>and found awaiting him a letter from his grand-uncle.</TEXT>
+<TEXT>He had first heard from the old gentleman less than</TEXT>
+<TEXT>a year before, when Richard Salton had claimed kinship,</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>2</HEADING>
+<TEXT>stating that he had been unable to write earlier, as he</TEXT>
+<TEXT>had found it very difficult to trace his grand-nephew's</TEXT>
+<TEXT>address. Adam was delighted and replied cordially; he</TEXT>
+<TEXT>had often heard his father speak of the older branch</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>3</HEADING>
+<TEXT>of the family with whom his people had long lost touch.</TEXT>
+<TEXT>Some interesting correspondence had ensued.  Adam </TEXT>
+<TEXT>eagerly opened the letter which had only just arrived,</TEXT>
+<TEXT>and conveyed a cordial invitation to stop with his </TEXT>
+
+</TASK>
+
+<TASK>
+<HEADING>4</HEADING>
+<TEXT>grand-uncle at Lesser Hill, for as long a time as he </TEXT>
+<TEXT>could spare.</TEXT>
+<TEXT>&quot;Indeed,&quot; Richard Salton went on, &quot;I am in hopes that</TEXT>
+<TEXT>you will make your permanent home here.  You see, my</TEXT>
+
+</TASK>
+
+<TASK>
+<HEADING>5</HEADING>
+
+<TEXT>dear boy, you and I are all that remain of our race,</TEXT>
+<TEXT>and it is but fitting that you should succeed me when</TEXT>
+<TEXT>the time comes.  In this year of grace, 1860, I am</TEXT>
+<TEXT>close on eighty years of age, and though we have been</TEXT>
+
+</TASK>
+
+<TASK>
+<HEADING>6</HEADING>
+<TEXT>a long-lived race, the span of life cannot be prolonged</TEXT>
+<TEXT>beyond reasonable bounds. I am prepared to like you,</TEXT>
+<TEXT>and to make your home with me as happy as you could</TEXT>
+<TEXT>wish. So do come at once on receipt of this, and find</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>7</HEADING>
+<TEXT>the welcome I am waiting to give you. I send, in case</TEXT>
+<TEXT>such may make matters easy for you, a banker's draft</TEXT>
+<TEXT>for 200 pounds.  Come soon, so that we may both of us</TEXT>
+<TEXT>enjoy many happy days together.&quot;</TEXT>
+</TASK>
+
+
+</LESSON>
+

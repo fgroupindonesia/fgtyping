@@ -1,0 +1,28 @@
+Define CharList
+ ( '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '!', '-', '+', ':');
+
+Define WidthList
+ (  20,   6,  20,  20,  20,  20,  20,  20,  20,  20,   6,  12,  12,   6);
+
+Define RectList
+ ( (   0,  0, 17, 29), (  18,  0,  3, 29), (  22,  0, 17, 29), (  40,  0, 17, 29),
+   (  58,  0, 17, 29), (  76,  0, 17, 29), (  94,  0, 17, 29), ( 112,  0, 17, 29),
+   ( 130,  0, 17, 29), ( 148,  0, 17, 29), ( 166,  0,  3, 29), ( 170,  0,  9, 29),
+   ( 180,  0,  9, 29), ( 190,  0,  3, 29));
+
+Define OffsetList
+ ( ( 1, 0), ( 1, 0), ( 1, 0), ( 1, 0), ( 1, 0), ( 1, 0), ( 1, 0), ( 1, 0),
+   ( 1, 0), ( 1, 0), ( 1, 0), ( 1, 0), ( 1, 0), ( 1, 0));
+
+CreateLayer               Main;
+LayerSetImage             Main '../images/UnsteadyOversteer22';
+LayerSetAscent            Main 23;
+LayerSetCharWidths        Main CharList WidthList;
+LayerSetCharWidths        Main (' ') (12);
+LayerSetImageMap          Main CharList RectList;
+LayerSetCharOffsets       Main CharList OffsetList;
+LayerSetAscentPadding     Main 0;
+LayerSetLineSpacingOffset Main 0;
+LayerSetPointSize         Main 22;
+
+SetDefaultPointSize  22;

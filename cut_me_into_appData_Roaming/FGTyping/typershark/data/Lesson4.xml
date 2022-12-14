@@ -1,0 +1,60 @@
+<LESSON>
+
+<HEADINGS>
+	<1>Let's start with the J,M,I and the comma keys.</1>
+	<2>Now, move on to the I and , keys.</2>
+	<3>Next, try the O, period, p and / keys.</3>
+	<4>Ok, on to the P and / keys.</4>
+	<5>Great work! On to the Y and N.</5>
+	<6>Swell! Now let's practice all these.</6>
+	<7>Just two more to go!</7>
+	<8>Now combine it with the last lesson!</8>
+</HEADINGS>
+
+
+<DESCRIPTION>The fourth lesson lets you start trying some of the diagonal keys on the right hand. Keep your left hand on "ASDF" and right on "JKL;".</DESCRIPTION>
+
+
+<LessonTime>-1</LessonTime>
+<MaxErrors>-1</MaxErrors>
+<MinWPM>-1</MinWPM>
+<MinAccuracy>-1</MinAccuracy>
+
+
+<TASK>
+<HEADING>1</HEADING>
+<TEXT>jujm jujm jujm jujm jujm jujm jujm jujm jujm jujm jujm</TEXT>
+<TEXT>mjuj mjuj mjuj mjuj mjuj mjuj mjuj mjuj mjuj mjuj mjuj</TEXT>
+<TEXT>kik, kik, kik, kik, kik, kik, kik, kik, kik, kik, kik, kik,</TEXT>
+<TEXT>,kik ,kik ,kik ,kik ,kik ,kik ,kik ,kik ,kik ,kik ,kik ,kik</TEXT>
+</TASK>
+
+
+<TASK>
+<HEADING>3</HEADING>
+<TEXT>lol. lol. lol. lol. lol. lol. lol. lol. lol. lol. lol. lol. lol.</TEXT>
+<TEXT>.lol .lol .lol .lol .lol .lol .lol .lol .lol .lol .lol .lol .lol</TEXT>
+<TEXT>;p;/ ;p;/ ;p;/ ;p;/ ;p;/ ;p;/ ;p;/ ;p;/ ;p;/ ;p;/ ;p;/ ;p;/</TEXT>
+<TEXT>/;p; /;p; /;p; /;p; /;p; /;p; /;p; /;p; /;p; /;p; /;p; /;p;</TEXT>
+</TASK>
+
+
+<TASK>
+<HEADING>5</HEADING>
+<TEXT>hyhn hyhn hyhn hyhn hyhn hyhn hyhn hyhn hyhn hyhn</TEXT>
+<TEXT>nhyh nhyh nhyh nhyh nhyh nhyh nhyh nhyh nhyh nhyh</TEXT></TASK>	
+<TEXT>;p;/ lol. kik, jujm hyhn ;p;/ lol. kik, jujm hyhn ;p;/</TEXT>
+<TEXT>aqaz swsx dedc frfv gtgb ;p;/ lol. kik, jujm hyhn</TEXT>
+<TASK>
+
+
+<TASK>
+<HEADING>8</HEADING>
+<TEXT>aqaz swsx dedc frfv gtgb ;p;/ lol. kik, jujm hyhn</TEXT>
+<TEXT>;p;/ lol. kik, jujm hyhn ;p;/ lol. kik, jujm hyhn ;p;/</TEXT>
+<TEXT>aqaz swsx dedc frfv gtgb ;p;/ lol. kik, jujm hyhn</TEXT>
+<TEXT>;p;/ lol. kik, jujm hyhn ;p;/ lol. kik, jujm hyhn ;p;/</TEXT>
+</TASK>
+
+
+</LESSON>

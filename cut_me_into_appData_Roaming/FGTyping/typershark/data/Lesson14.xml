@@ -1,0 +1,59 @@
+<LESSON>
+
+<HEADINGS>
+	<1>Now you'll learn some mathematical symbols.</1>
+	<2>Next, let's learn brackets and parentheses.</2>
+	<3>Now, practice using hyphens and underscores.</3>
+	<4>Finally, lets' go through all the special characters.</4>
+
+
+</HEADINGS>
+
+
+<DESCRIPTION>The fourteenth lesson teaches you some more special characters.</DESCRIPTION>
+
+
+
+<LessonTime>-1</LessonTime>
+<MaxErrors>-1</MaxErrors>
+<MinWPM>-1</MinWPM>
+<MinAccuracy>-1</MinAccuracy>
+
+
+<TASK>
+<HEADING>1</HEADING>
+<TEXT>~`@ #$% ^&amp;* ()- _+= [{]} ~;&lt; &gt;/? ;:' &quot;!@ $%^ *() _+= ?</TEXT>
+<TEXT>12 + 30 x 3 - 15 / 3 = 97. 14 + 4 - 6 / 3 x 44 = -70.</TEXT>
+<TEXT>12 + 30 x 3 - 15 / 3 = 97. 14 + 4 - 6 / 3 x 44 = -70.</TEXT>
+<TEXT>$5.56 x .06 = $0.33 discount. $1045 / 3.5 = $298.57</TEXT>
+<TEXT>$5.56 x .06 = $0.33 discount. $1045 / 3.5 = $298.57</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>2</HEADING>
+<TEXT>([one]) (4[x]) (major) [test] [brackets] (parentheses) ([X])</TEXT>
+<TEXT>([one]) (4[x]) (major) [test] [brackets] (parentheses) ([X])</TEXT>
+<TEXT>He (sometimes) liked to comment (inappropriately) to his</TEXT>
+<TEXT>young (but canny) secretary about his (curious) interests.</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>3</HEADING>
+<TEXT>_underscore_ -hyphen- _underscore_ -hyphen- --- ___ ---</TEXT>
+<TEXT>Sometimes in text-based docs, _underscores_ are used to</TEXT>
+<TEXT>indicate italics, to show _emphasis_ on words or phrases.</TEXT>
+<TEXT>Hyphens, as in Startford-upon-Avon, are not the same.</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>4</HEADING>
+<TEXT>~`@ #$% ^&amp;* ()- _+= [{]} ~;&lt; &gt;/? ;:' &quot;!@ $%^ *() _+= ?</TEXT>
+<TEXT>~`@ #$% ^&amp;* ()- _+= [{]} ~;&lt; &gt;/? ;:' &quot;!@ $%^ *() _+= ?</TEXT>
+<TEXT>&amp; $ # ! ) * $ &amp; # * ? _ - + = ( ) [ ] ! @ $ / ~ < > ^ &amp;</TEXT>
+<TEXT>&amp; $ # ! ) * $ &amp; # * ? _ - + = ( ) [ ] ! @ $ / ~ < > ^ &amp;</TEXT>
+</TASK>
+
+
+
+
+</LESSON>

@@ -1,0 +1,2 @@
+560 345 | win32ads/winbej_ad.html win32ads/winbej_left.jpg win32ads/winbej_right1.gif win32ads/winbej_right2.gif win32ads/winbej_right3.gif | 1
+560 345 | win32ads/winbw_ad.html | 1

@@ -1,0 +1,57 @@
+<LESSON>
+
+<HEADINGS>
+	<1>Now let's practice these initial keys.</1>
+	<2>Very good! And some more…</2>
+	<3>Now let's add the G and H keys.</3>
+	<4>Now let's practice all you've learned!</4>
+	<5>Good job! Keep going…</5>
+	<6>Excellent! Just a few more to finish this lesson.</6>
+	<7>Almost done! Keep at it!</7>
+	<8>And one more!</8>
+</HEADINGS>
+
+
+<DESCRIPTION>In the second lesson you'll add the G and H keys and practice the basic key positions further. Keep your left hand on "ASDF" and your right hand on "JKL;".</DESCRIPTION>
+
+<LessonTime>-1</LessonTime>
+<MaxErrors>-1</MaxErrors>
+<MinWPM>-1</MinWPM>
+<MinAccuracy>-1</MinAccuracy>
+
+
+<TASK>
+<HEADING>1</HEADING>
+<TEXT>asdf jkl; asdf jkl; asdf jkl; asdf jkl; asdf jkl; asdf jkl;</TEXT>
+<TEXT>asdf ;lkj asdf ;lkj asdf ;lkj asdf ;lkj asdf ;lkj asdf ;lkj</TEXT>
+<TEXT>as asd asdf ;l ;lk ;lkj as asd asdf ;l ;lk ;lkj as asd asdf</TEXT>
+<TEXT>;l ;lk ;lkj ask lads ask lads ask lads ask lads ask lads</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>3</HEADING>
+<TEXT>asdfg ;lkjh asdfg ;lkjh asdfg ;lkjh asdfg ;lkjh asdfg ;lkjh</TEXT>
+<TEXT>a lad has a glad dad; dad has half a glad salad; fad</TEXT>
+<TEXT>dad has half a lad salad; a lad has a fad dad flag</TEXT>
+<TEXT>jag lag flag hag; ask lask flask lass lad lag hag jag</TEXT>
+
+</TASK>
+
+<TASK>
+<HEADING>4</HEADING>
+<TEXT>ask jag gas lag fad half lash gash lass glass ash sag</TEXT>
+<TEXT>gag hag had sash fall hash dash slash glass sash lag</TEXT>
+<TEXT>ask jag gas lag fad half lash gash lass glass ash sag</TEXT>
+<TEXT>gag hag had sash fall hash dash slash glass sash lag</TEXT>
+</TASK>
+
+<TASK>
+<HEADING>7</HEADING>
+<TEXT>dash slash hash ash sag gag hag had sash fall hash slash</TEXT>
+<TEXT>dash slash hash ash sag gag hag had sash fall hash slash</TEXT>
+<TEXT>dash slash hash ash sag gag hag had sash fall hash slash</TEXT>
+<TEXT>dash slash hash ash sag gag hag had sash fall hash slash</TEXT>
+</TASK>
+
+
+</LESSON>

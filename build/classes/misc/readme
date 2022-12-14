@@ -1,0 +1,13 @@
+Project ini berfungsi sebagai panel (executor)
+dimana Apps yg telah di-embed terletak pada Advanced Installer (Installer Builder)
+yang menyertakan : 
+a. Typer Shark (full registered version)
+di deploy ke dalam Users\<NAME>\AppData\Roaming\FGroupIndonesia\FGTyping
+
+Namun juga apabila telah diperoleh TyperShark pada lokasi lain seperti
+"Program Files(x86)" 
+ataupun 
+"Program Files"
+
+Maka cukuplah detecting lokasi ke 3 tempat tersebut secara automatis saat penggunaan 
+Menu yang sudah disediakan

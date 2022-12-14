@@ -1,0 +1,13 @@
+notes:
+
+JRE runtime using jlink include 3 modules:
+java.base
+java.desktop
+java.logging 
+
+for x64 is based upon:
+graalvm-ce-java11-20.3.5
+
+for x86 is based upon:
+jdk-11.0.14.1-hotspot
+

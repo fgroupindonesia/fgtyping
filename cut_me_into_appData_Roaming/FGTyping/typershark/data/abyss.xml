@@ -1,0 +1,1941 @@
+<!-- Typer Shark 1.0 -->
+<!-- Difficulty Level: Abyss -->
+
+<Config>
+
+	<AbyssMode></AbyssMode>
+
+	<!-- Default settings -->
+	<Default>
+		<DiverSpeed>	0.3	</DiverSpeed>
+		<OceanDepth>	-1 </OceanDepth>
+		<TimeDelay>		0</TimeDelay>
+		<KnockBack>		5	</KnockBack>
+		<TreasureSecs>	30	</TreasureSecs>		
+		<MinSpeed>		0.6	</MinSpeed>
+		<MaxSpeed>		0.7	</MaxSpeed>
+		<MinDiff>		5	</MinDiff>
+		<MaxDiff>		7	</MaxDiff>
+		<MapDelay>		250 </MapDelay> 
+  		<MinCol>		5	</MinCol> 
+  		<MaxCol>		6	</MaxCol> 
+  		<LetterDelay>	1000 </LetterDelay>
+		<MinEndDiff>	15	</MinEndDiff>
+		<MaxEndDiff>	35	</MaxEndDiff>
+		<NumForPenalty> 1	</NumForPenalty>
+		<PenaltySpeed>	1.0 </PenaltySpeed>
+	</Default>
+	
+								<!-- LEVEL 1 -->
+	<Level LevelNum = "1">		
+		<!-- We don't want penalty piranhas until level 3 -->
+		<NumForPenalty>		65535	</NumForPenalty>
+		<PenaltySpeed>		0.0	</PenaltySpeed>
+		<MinDiff>		3		</MinDiff>
+		<MaxDiff>		3		</MaxDiff>
+		<MinSpeed>	0.3	</MinSpeed>
+		<MaxSpeed>	0.31	</MaxSpeed>
+						
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "Blue">
+				<MinNumber>5</MinNumber>
+				<MaxNumber>10</MaxNumber>
+			</Enemy>
+		</Wave>		
+
+
+	</Level>
+								<!-- LEVEL 2 -->
+	<Level LevelNum = "2">
+		<!-- We don't want penalty piranhas until level 3 -->
+		<NumForPenalty>		65535	</NumForPenalty>
+		<PenaltySpeed>		0.0	</PenaltySpeed>
+		<MinDiff>		3		</MinDiff>
+		<MaxDiff>		3		</MaxDiff>
+		<MinSpeed>	0.3	</MinSpeed>
+		<MaxSpeed>	0.31	</MaxSpeed>
+		
+		<Wave WaveNum = "1" Type = "Piranhas">
+			<MinSpeed>0.4</MinSpeed>
+			<MaxSpeed>0.4</MaxSpeed>
+			<Enemy Type = "Blue">			
+				<MinNumber>10</MinNumber>
+				<MaxNumber>10</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Sharks">
+			<Enemy Type = "Blue">
+				<MinNumber>5</MinNumber>
+				<MaxNumber>10</MaxNumber>
+			</Enemy>
+		</Wave>
+				
+		<Wave WaveNum = "3" Type = "Bonus">
+			<Enemy Type = "Standard">
+				<MinDiff>3</MinDiff>
+				<MaxDiff>5</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+	</Level>
+	
+	
+								<!-- LEVEL 3 -->
+	<Level LevelNum = "3">
+		<NumForPenalty>		3	</NumForPenalty>
+		<MinDiff>		3		</MinDiff>
+		<MaxDiff>		4		</MaxDiff>
+		<MinSpeed>	0.3	</MinSpeed>
+		<MaxSpeed>	0.32	</MaxSpeed>
+		
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "Blue">
+				<MinNumber>7</MinNumber>
+				<MaxNumber>14</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Piranhas">
+			<MinSpeed>0.4</MinSpeed>
+			<MaxSpeed>0.4</MaxSpeed>
+			<Enemy Type = "Blue">
+				<MinNumber>10</MinNumber>
+				<MaxNumber>12</MaxNumber>
+			</Enemy>
+		</Wave>
+				
+	</Level>						
+	
+								<!-- LEVEL 4 -->
+	<Level LevelNum = "4">	
+		<NumForPenalty>		2	</NumForPenalty>
+		<MinDiff>		3		</MinDiff>
+		<MaxDiff>		4		</MaxDiff>
+		<MinSpeed>	0.3	</MinSpeed>
+		<MaxSpeed>	0.33	</MaxSpeed>
+
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "Black">
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Piranhas">
+			<MinSpeed>0.4</MinSpeed>
+			<MaxSpeed>0.4</MaxSpeed>
+			<Enemy Type = "Blue">
+				<MinNumber>13</MinNumber>
+				<MaxNumber>13</MaxNumber>
+			</Enemy>
+			<Enemy Type = "White">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>7</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "3" Type = "Bonus">
+			<Enemy Type = "Standard">
+				<MinDiff>3</MinDiff>
+				<MaxDiff>5</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+	</Level>		
+	
+								<!-- LEVEL 5 -->
+	<Level LevelNum = "5">
+		<NumForPenalty>		2	</NumForPenalty>
+		<MinDiff>		3		</MinDiff>
+		<MaxDiff>		4		</MaxDiff>
+		<MinSpeed>	0.3	</MinSpeed>
+		<MaxSpeed>	0.35	</MaxSpeed>
+
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "Stealth">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Piranhas">
+			<MinSpeed>0.4</MinSpeed>
+			<MaxSpeed>0.4</MaxSpeed>
+			<Enemy Type = "Stealth">
+				<MinNumber>5</MinNumber>
+				<MaxNumber>7</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>7</MinNumber>
+				<MaxNumber>10</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "4" Type = "Piranhas">
+			<MinSpeed>0.4</MinSpeed>
+			<MaxSpeed>0.4</MaxSpeed>
+			<Enemy Type = "White">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>10</MinNumber>
+				<MaxNumber>14</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "5" Type = "Sharks">
+			<Enemy Type = "Blue">
+				<ThemeRandom></ThemeRandom>
+				<MinNumber>5</MinNumber>
+				<MaxNumber>7</MaxNumber>
+			</Enemy>
+		</Wave>
+	</Level>
+	
+							<!-- LEVEL 6 -->
+	<Level LevelNum = "6">
+		<NumForPenalty>		2	</NumForPenalty>
+		<MinDiff>		3		</MinDiff>
+		<MaxDiff>		4		</MaxDiff>
+		<MinSpeed>	0.35	</MinSpeed>
+		<MaxSpeed>	0.4	</MaxSpeed>
+
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "Red">
+			<MinDiff>3</MinDiff>
+			<MaxDiff>3</MaxDiff>
+			<MinNumber>3</MinNumber>
+			<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Sharks">
+			<Enemy Type = "Black">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>6</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "3" Type = "Sharks">
+			<Enemy Type = "Blue">
+				<MinNumber>10</MinNumber>
+				<MaxNumber>13</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "4" Type = "Piranhas">
+			<MinSpeed>0.4</MinSpeed>
+			<MaxSpeed>0.4</MaxSpeed>
+			<Enemy Type = "Blue">
+				<MinNumber>13</MinNumber>
+				<MaxNumber>15</MaxNumber>
+			</Enemy>
+			<Enemy Type = "White">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>6</MaxNumber>
+			</Enemy>
+		</Wave>
+				
+	</Level>
+	
+							<!-- LEVEL 7 -->
+	<Level LevelNum = "7">
+		<MinSpeed>	0.4	</MinSpeed>
+		<MaxSpeed>	0.4	</MaxSpeed>
+		<MinDiff>		3		</MinDiff>
+		<MaxDiff>		4		</MaxDiff>
+		<Wave WaveNum = "1" Type = "Piranhas">
+			<MinSpeed>0.5</MinSpeed>
+			<MaxSpeed>0.5</MaxSpeed>
+			<Enemy Type = "White">
+				<MinNumber>8</MinNumber>
+				<MaxNumber>10</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Sharks">			
+			<Enemy Type = "Black">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>		
+			<Enemy Type = "Stealth">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>		
+		
+		<Wave WaveNum = "3" Type = "Piranhas">
+			<MinSpeed>0.5</MinSpeed>
+			<MaxSpeed>0.5</MaxSpeed>
+			<Enemy Type = "Blue">
+				<MinNumber>5</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+			<Enemy Type = "White">
+				<MinNumber>5</MinNumber>
+				<MaxNumber>7</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "4" Type = "Sharks">
+			<Enemy Type = "Black">
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>		
+			<Enemy Type = "Stealth">
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>		
+		
+		<Wave WaveNum = "5" Type = "Bonus">
+			<Enemy Type = "Standard">
+				<MinDiff>3</MinDiff>
+				<MaxDiff>5</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+					
+	</Level>
+	
+								<!-- LEVEL 8 -->
+	<Level LevelNum = "8">
+		<MinSpeed>	0.4	</MinSpeed>
+		<MaxSpeed>	0.4	</MaxSpeed>
+		<MinDiff>		3		</MinDiff>
+		<MaxDiff>		5		</MaxDiff>
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinSpeed>0.3</MinSpeed>
+				<MaxSpeed>0.3</MaxSpeed>
+				<MinDiff>3</MinDiff>
+				<MaxDiff>3</MaxDiff>
+				<MinNumber>2</MinNumber>	
+				<MaxNumber>2</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>2</MinNumber>
+				<MaxNumber>2</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>		
+		
+		<Wave WaveNum = "2" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinDiff>3</MinDiff>
+				<MaxDiff>3</MaxDiff>
+				<MinSpeed>0.3</MinSpeed>
+				<MaxSpeed>0.3</MaxSpeed>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Black">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "3" Type = "Piranhas">
+			<MinSpeed>0.5</MinSpeed>
+			<MaxSpeed>0.5</MaxSpeed>
+			<Enemy Type = "White">
+				<MinNumber>5</MinNumber>
+				<MaxNumber>6</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>6</MinNumber>
+				<MaxNumber>8</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "4" Type = "Sharks">
+			<Enemy Type = "Blue">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Black">
+				<MinNumber>1</MinNumber>
+				<MaxNumber>2</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+	</Level>
+	
+								<!-- LEVEL 9 -->
+	<Level LevelNum = "9">
+		<MinSpeed>	0.4	</MinSpeed>
+		<MaxSpeed>	0.4	</MaxSpeed>
+		<MinDiff>		3		</MinDiff>
+		<MaxDiff>		5		</MaxDiff>
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinDiff>3</MinDiff>
+				<MaxDiff>3</MaxDiff>
+				<MinSpeed>0.3</MinSpeed>
+				<MaxSpeed>0.3</MaxSpeed>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>2</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Piranhas">
+			<MinSpeed>0.5</MinSpeed>
+			<MaxSpeed>0.5</MaxSpeed>
+			<Enemy Type = "White">
+				<MinNumber>6</MinNumber>
+				<MaxNumber>8</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>8</MinNumber>
+				<MaxNumber>8</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "3" Type = "Piranhas">
+			<MinSpeed>0.5</MinSpeed>
+			<MaxSpeed>0.5</MaxSpeed>
+			<Enemy Type = "WhiteStealth">
+				<MinNumber>5</MinNumber>
+				<MaxNumber>7</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>5</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "4" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinSpeed>0.3</MinSpeed>
+				<MaxSpeed>0.3</MaxSpeed>
+				<MinDiff>3</MinDiff>
+				<MaxDiff>3</MaxDiff>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>2</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Black">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+				
+	</Level>
+	
+								<!-- LEVEL 10 -->								
+	<Level LevelNum = "10">
+		<MinSpeed>	0.45	</MinSpeed>
+		<MaxSpeed>	0.45	</MaxSpeed>
+		<MinDiff>		4		</MinDiff>
+		<MaxDiff>		5		</MaxDiff>
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "Black">
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Piranhas">
+			<MinSpeed>0.5</MinSpeed>
+			<MaxSpeed>0.5</MaxSpeed>
+			<Enemy Type = "Stealth">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "WhiteStealth">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "White">
+				<MinNumber>5</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		
+		<Wave WaveNum = "3" Type = "Sharks">
+			<Enemy Type = "Stealth">
+				<MinNumber>6</MinNumber>
+				<MaxNumber>7</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "4" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinSpeed>0.3</MinSpeed>
+				<MaxSpeed>0.3</MaxSpeed>
+				<MinDiff>3</MinDiff>
+				<MaxDiff>3</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+	
+	</Level>
+	
+								<!-- LEVEL 11 -->
+	<Level LevelNum = "11">
+		<MinSpeed>	0.45	</MinSpeed>
+		<MaxSpeed>	0.5	</MaxSpeed>
+		<MinDiff>		4		</MinDiff>
+		<MaxDiff>		5		</MaxDiff>
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "Black">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Sharks">
+			<Enemy Type = "Toxic">
+				<MinNumber>1</MinNumber>
+				<MaxNumber>1</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>5</MinNumber>
+				<MaxNumber>6</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "3" Type = "Piranhas">
+			<MinSpeed>0.5</MinSpeed>
+			<MaxSpeed>0.5</MaxSpeed>
+			<Enemy Type = "Stealth">
+				<MinNumber>5</MinNumber>
+				<MaxNumber>6</MaxNumber>
+			</Enemy>
+			<Enemy Type = "WhiteStealth">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "White">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>	
+		
+		<Wave WaveNum = "4" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinSpeed>0.35</MinSpeed>
+				<MaxSpeed>0.35</MaxSpeed>
+				<MinDiff>3</MinDiff>
+				<MaxDiff>3</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+	</Level>
+	
+								<!-- LEVEL 12 -->
+	<Level LevelNum = "12">
+		<MinSpeed>	0.45	</MinSpeed>
+		<MaxSpeed>	0.5	</MaxSpeed>
+		<MinDiff>	4	</MinDiff>
+		<MaxDiff>	5	</MaxDiff>
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinSpeed>0.35</MinSpeed>
+				<MaxSpeed>0.35</MaxSpeed>
+				<MinDiff>3</MinDiff>
+				<MaxDiff>4</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>			
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Sharks">
+			<Enemy Type = "Toxic">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "3" Type = "Piranhas">
+			<MinSpeed>0.5</MinSpeed>
+			<MaxSpeed>0.5</MaxSpeed>
+			<Enemy Type = "Stealth">
+				<MinNumber>10</MinNumber>
+				<MaxNumber>10</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>10</MinNumber>
+				<MaxNumber>10</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "4" Type = "Sharks">
+			<Enemy Type = "Stealth">
+				<ThemeRandom></ThemeRandom>
+				<MinNumber>7</MinNumber>
+				<MaxNumber>7</MaxNumber>
+			</Enemy>
+		</Wave>
+	
+	</Level>
+	
+								<!-- LEVEL 13 -->		
+	<Level LevelNum = "13">
+		<MinSpeed>	0.5	</MinSpeed>
+		<MaxSpeed>	0.55	</MaxSpeed>
+		<MinDiff>	4	</MinDiff>
+		<MaxDiff>	5	</MaxDiff>
+		<Wave WaveNum = "1" Type = "Piranhas">
+			<MinSpeed>0.5</MinSpeed>
+			<MaxSpeed>0.5</MaxSpeed>
+			<Enemy Type = "Stealth">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "WhiteStealth">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "White">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Sharks">
+			<Enemy Type = "Black">
+				<MinNumber>2</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Toxic">
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "3" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinDiff>4</MinDiff>
+				<MaxDiff>4</MaxDiff>
+				<MinSpeed>0.35</MinSpeed>
+				<MaxSpeed>0.35</MaxSpeed>
+				<MinNumber>4</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "4" Type = "Sharks">
+			<Enemy Type = "Stealth">				
+				<MinNumber>7</MinNumber>
+				<MaxNumber>9</MaxNumber>
+			</Enemy>
+		</Wave>
+	
+	</Level>
+	
+								<!-- LEVEL 14 -->
+	<Level LevelNum = "14">
+		<MinSpeed>	0.5	</MinSpeed>
+		<MaxSpeed>	0.55	</MaxSpeed>
+		<MinDiff>	4	</MinDiff>
+		<MaxDiff>	6	</MaxDiff>
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "Blue">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>6</MaxNumber>
+			</Enemy>
+			<Enemy Type = "BlackStealth">
+				<MinDiff>	4	</MinDiff>
+				<MaxDiff>	4	</MaxDiff>
+				<MinSpeed>0.45</MinSpeed>
+				<MaxSpeed>0.45</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+	
+		<Wave WaveNum = "2" Type = "Sharks">
+			<Enemy Type = "BlackStealth">
+				<MinSpeed>0.45</MinSpeed>
+				<MaxSpeed>0.45</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>	
+		
+		<Wave WaveNum = "3" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinDiff>4</MinDiff>
+				<MaxDiff>4</MaxDiff>
+				<MinSpeed>0.35</MinSpeed>
+				<MaxSpeed>0.35</MaxSpeed>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "BlackStealth">
+				<MinSpeed>0.45</MinSpeed>
+				<MaxSpeed>0.45</MaxSpeed>
+				<MinDiff>	4	</MinDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "4" Type = "Piranhas">
+			<MinSpeed>0.5</MinSpeed>
+			<MaxSpeed>0.6</MaxSpeed>
+			<Enemy Type = "Stealth">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "WhiteStealth">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "White">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+	</Level>
+	
+	
+								<!-- LEVEL 15 -->
+	<Level LevelNum = "15">
+		<MinSpeed>	0.5	</MinSpeed>
+		<MaxSpeed>	0.55	</MaxSpeed>
+		<MinDiff>	5	</MinDiff>
+		<MaxDiff>	6	</MaxDiff>
+		<Wave WaveNum = "1" Type = "Piranhas">
+			<MinSpeed>0.5</MinSpeed>
+			<MaxSpeed>0.6</MaxSpeed>
+			<Enemy Type = "Blue">
+				<MinNumber>10</MinNumber>
+				<MaxNumber>15</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinDiff>4</MinDiff>
+				<MaxDiff>4</MaxDiff>
+				<MinSpeed>0.4</MinSpeed>
+				<MaxSpeed>0.4</MaxSpeed>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Toxic">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "3" Type = "Piranhas">
+			<MinSpeed>0.5</MinSpeed>
+			<MaxSpeed>0.6</MaxSpeed>
+			<Enemy Type = "Stealth">
+				<MinNumber>7</MinNumber>
+				<MaxNumber>10</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "3" Type = "Sharks">
+			<Enemy Type = "BlackStealth">
+				<MinSpeed>0.4</MinSpeed>
+				<MaxSpeed>0.4</MaxSpeed>
+				<MinNumber>4</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "4" Type = "Piranhas">
+			<MinSpeed>0.5</MinSpeed>
+			<MaxSpeed>0.6</MaxSpeed>
+			<Enemy Type = "White">
+				<MinNumber>7</MinNumber>
+				<MaxNumber>10</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "5" Type = "Sharks">
+			<Enemy Type = "Toxic">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "6" Type = "Piranhas">
+			<MinSpeed>0.5</MinSpeed>
+			<MaxSpeed>0.6</MaxSpeed>
+			<Enemy Type = "WhiteStealth">
+				<MinNumber>7</MinNumber>
+				<MaxNumber>8</MaxNumber>
+			</Enemy>
+		</Wave>
+	
+	</Level>
+	
+	
+								<!-- LEVEL 16 -->
+	<Level LevelNum = "16">
+		<MinSpeed>	0.5	</MinSpeed>
+		<MaxSpeed>	0.6	</MaxSpeed>
+		<MinDiff>	5	</MinDiff>
+		<MaxDiff>	6	</MaxDiff>
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.4	</MinSpeed>
+				<MaxSpeed>	0.4	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	4	</MaxDiff>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "BlackStealth">
+				<MinSpeed>	0.5	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinDiff>	4	</MinDiff>
+				<MaxDiff>	6	</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.4	</MinSpeed>
+				<MaxSpeed>	0.4	</MaxSpeed>
+				<MinDiff>	4	</MinDiff>
+				<MaxDiff>	4	</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "3" Type = "Piranhas">
+			<MinSpeed>0.5</MinSpeed>
+			<MaxSpeed>0.6</MaxSpeed>
+			<Enemy Type = "Blue">
+				<MinNumber>18</MinNumber>
+				<MaxNumber>21</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "4" Type = "Sharks">
+			<Enemy Type = "Black">
+				<MinSpeed>0.45</MinSpeed>
+				<MaxSpeed>0.5</MaxSpeed>
+				<MinNumber>5</MinNumber>
+				<MaxNumber>6</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "5" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinDiff>	4	</MinDiff>
+				<MaxDiff>	4	</MaxDiff>
+				<MinSpeed>	0.4	</MinSpeed>
+				<MaxSpeed>	0.4	</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "BlackStealth">
+				<MinDiff>	4 	</MinDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinSpeed>0.45</MinSpeed>
+				<MaxSpeed>0.45</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+	
+	</Level>
+	
+								<!-- LEVEL 17 -->
+	<Level LevelNum = "17">		
+		<MinSpeed>	0.5	</MinSpeed>
+		<MaxSpeed>	0.6	</MaxSpeed>
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "BlackStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>2</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "3" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.6</MaxSpeed>
+			<Enemy Type = "Blue">
+				<MinNumber>20</MinNumber>
+				<MaxNumber>25</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "4" Type = "Sharks">
+			<Enemy Type = "Black">
+				<MinSpeed>	0.5	</MinSpeed>
+				<MaxSpeed>	0.55	</MaxSpeed>
+				<ThemeRandom></ThemeRandom>
+				<MinNumber>5</MinNumber>
+				<MaxNumber>6</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "5" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "BlackStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>1</MinNumber>
+				<MaxNumber>2</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>1</MinNumber>
+				<MaxNumber>2</MaxNumber>
+			</Enemy>
+		</Wave>
+			
+		<Wave WaveNum = "6" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>2</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>2</MinNumber>
+				<MaxNumber>2</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "7" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.6</MaxSpeed>
+			<Enemy Type = "White">
+				<MinNumber>7</MinNumber>
+				<MaxNumber>9</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>8</MinNumber>
+				<MaxNumber>8</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "8" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.6</MaxSpeed>
+			<Enemy Type = "WhiteStealth">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>6</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>13</MinNumber>
+				<MaxNumber>13</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "9" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Black">
+				<MinSpeed>	0.5	</MinSpeed>
+				<MaxSpeed>	0.55	</MaxSpeed>
+				<MinDiff>	5	</MinDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "10" Type = "Bonus">
+			<Enemy Type = "Standard">
+				<MinDiff>3</MinDiff>
+				<MaxDiff>5</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+	</Level>	
+	
+									<!-- LEVEL 18 -->
+	<Level LevelNum = "18">		
+		<MinSpeed>	0.5	</MinSpeed>
+		<MaxSpeed>	0.6	</MaxSpeed>
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "BlackStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "3" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.6</MaxSpeed>
+			<Enemy Type = "Blue">
+				<MinNumber>20</MinNumber>
+				<MaxNumber>25</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "4" Type = "Sharks">
+			<Enemy Type = "Black">
+				<MinSpeed>	0.5	</MinSpeed>
+				<MaxSpeed>	0.55	</MaxSpeed>
+				<ThemeRandom></ThemeRandom>
+				<MinNumber>5</MinNumber>
+				<MaxNumber>6</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "5" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "BlackStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>1</MinNumber>
+				<MaxNumber>2</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+			
+		<Wave WaveNum = "6" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>2</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "7" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.6</MaxSpeed>
+			<Enemy Type = "White">
+				<MinNumber>7</MinNumber>
+				<MaxNumber>9</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>8</MinNumber>
+				<MaxNumber>8</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "8" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.6</MaxSpeed>
+			<Enemy Type = "WhiteStealth">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>6</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>13</MinNumber>
+				<MaxNumber>13</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "9" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Black">
+				<MinSpeed>	0.5	</MinSpeed>
+				<MaxSpeed>	0.55	</MaxSpeed>
+				<MinDiff>	5	</MinDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>4</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "10" Type = "Bonus">
+			<Enemy Type = "Standard">
+				<MinDiff>3</MinDiff>
+				<MaxDiff>5</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+	</Level>
+	
+										<!-- LEVEL 19 -->
+	<Level LevelNum = "19">		
+		<MinSpeed>	0.5	</MinSpeed>
+		<MaxSpeed>	0.6	</MaxSpeed>
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	6	</MaxDiff>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "BlackStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	6	</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "3" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.7</MaxSpeed>
+			<Enemy Type = "Blue">
+				<MinNumber>20</MinNumber>
+				<MaxNumber>25</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "4" Type = "Sharks">
+			<Enemy Type = "Black">
+				<MinSpeed>	0.5	</MinSpeed>
+				<MaxSpeed>	0.55	</MaxSpeed>
+				<ThemeRandom></ThemeRandom>
+				<MinNumber>5</MinNumber>
+				<MaxNumber>7</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "5" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "BlackStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+			
+		<Wave WaveNum = "6" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	6	</MaxDiff>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>2</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "7" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.7</MaxSpeed>
+			<Enemy Type = "White">
+				<MinNumber>7</MinNumber>
+				<MaxNumber>9</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>8</MinNumber>
+				<MaxNumber>8</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "8" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.7</MaxSpeed>
+			<Enemy Type = "WhiteStealth">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>6</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>8</MinNumber>
+				<MaxNumber>10</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "9" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	6	</MaxDiff>
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Black">
+				<MinSpeed>	0.5	</MinSpeed>
+				<MaxSpeed>	0.55	</MaxSpeed>
+				<MinDiff>	5	</MinDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "10" Type = "Bonus">
+			<Enemy Type = "Standard">
+				<MinDiff>3</MinDiff>
+				<MaxDiff>5</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+	</Level>
+	
+										<!-- LEVEL 20 -->	
+	<Level LevelNum = "20">		
+		<MinSpeed>	0.5	</MinSpeed>
+		<MaxSpeed>	0.6	</MaxSpeed>
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	6	</MaxDiff>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "BlackStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	6	</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "3" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.7</MaxSpeed>
+			<Enemy Type = "Blue">
+				<MinNumber>20</MinNumber>
+				<MaxNumber>25</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "4" Type = "Sharks">
+			<Enemy Type = "Black">
+				<MinSpeed>	0.5	</MinSpeed>
+				<MaxSpeed>	0.55	</MaxSpeed>
+				<ThemeRandom></ThemeRandom>
+				<MinNumber>6</MinNumber>
+				<MaxNumber>7</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "5" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "BlackStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>1</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+			
+		<Wave WaveNum = "6" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	6	</MaxDiff>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>2</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "7" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.7</MaxSpeed>
+			<Enemy Type = "White">
+				<MinNumber>7</MinNumber>
+				<MaxNumber>9</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>8</MinNumber>
+				<MaxNumber>8</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "8" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.7</MaxSpeed>
+			<Enemy Type = "WhiteStealth">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>6</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>13</MinNumber>
+				<MaxNumber>13</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "9" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	6	</MaxDiff>
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Black">
+				<MinSpeed>	0.5	</MinSpeed>
+				<MaxSpeed>	0.55	</MaxSpeed>
+				<MinDiff>	5	</MinDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>4</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "10" Type = "Bonus">
+			<Enemy Type = "Standard">
+				<MinDiff>3</MinDiff>
+				<MaxDiff>5</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+	</Level>
+	
+										<!-- LEVEL 21 -->
+	<Level LevelNum = "21">		
+		<MinSpeed>	0.5	</MinSpeed>
+		<MaxSpeed>	0.6	</MaxSpeed>
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	6	</MaxDiff>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "BlackStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	6	</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "3" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.7</MaxSpeed>
+			<Enemy Type = "Blue">
+				<MinNumber>20</MinNumber>
+				<MaxNumber>25</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "4" Type = "Sharks">
+			<Enemy Type = "Black">
+				<MinSpeed>	0.5	</MinSpeed>
+				<MaxSpeed>	0.55	</MaxSpeed>
+				<ThemeRandom></ThemeRandom>
+				<MinNumber>7</MinNumber>
+				<MaxNumber>7</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "5" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "BlackStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+			
+		<Wave WaveNum = "6" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	6	</MaxDiff>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>2</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "7" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.7</MaxSpeed>
+			<Enemy Type = "White">
+				<MinNumber>7</MinNumber>
+				<MaxNumber>9</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>8</MinNumber>
+				<MaxNumber>8</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "8" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.7</MaxSpeed>
+			<Enemy Type = "WhiteStealth">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>6</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>13</MinNumber>
+				<MaxNumber>13</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "9" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	6	</MaxDiff>
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Black">
+				<MinSpeed>	0.5	</MinSpeed>
+				<MaxSpeed>	0.55	</MaxSpeed>
+				<MinDiff>	5	</MinDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>4</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "10" Type = "Bonus">
+			<Enemy Type = "Standard">
+				<MinDiff>3</MinDiff>
+				<MaxDiff>5</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+	</Level>
+	
+										<!-- LEVEL 22 -->
+	<Level LevelNum = "22">		
+		<MinSpeed>	0.5	</MinSpeed>
+		<MaxSpeed>	0.6	</MaxSpeed>
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	6	</MaxDiff>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "BlackStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	6	</MaxDiff>
+				<MinNumber>4</MinNumber>
+				<MaxNumber>6</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "3" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.7</MaxSpeed>
+			<Enemy Type = "Blue">
+				<MinNumber>20</MinNumber>
+				<MaxNumber>25</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "4" Type = "Sharks">
+			<Enemy Type = "Black">
+				<MinSpeed>	0.5	</MinSpeed>
+				<MaxSpeed>	0.55	</MaxSpeed>
+				<ThemeRandom></ThemeRandom>
+				<MinNumber>7</MinNumber>
+				<MaxNumber>7</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "5" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "BlackStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+			
+		<Wave WaveNum = "6" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	6	</MaxDiff>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>2</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "7" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.7</MaxSpeed>
+			<Enemy Type = "White">
+				<MinNumber>7</MinNumber>
+				<MaxNumber>9</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>8</MinNumber>
+				<MaxNumber>8</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "8" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.7</MaxSpeed>
+			<Enemy Type = "WhiteStealth">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>6</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>13</MinNumber>
+				<MaxNumber>13</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "9" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	6	</MaxDiff>
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Black">
+				<MinSpeed>	0.5	</MinSpeed>
+				<MaxSpeed>	0.55	</MaxSpeed>
+				<MinDiff>	5	</MinDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>4</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "10" Type = "Bonus">
+			<Enemy Type = "Standard">
+				<MinDiff>3</MinDiff>
+				<MaxDiff>5</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+	</Level>
+	
+	
+										<!-- LEVEL 23 -->
+	<Level LevelNum = "23">		
+		<MinSpeed>	0.5	</MinSpeed>
+		<MaxSpeed>	0.6	</MaxSpeed>
+		<Wave WaveNum = "1" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	7	</MaxDiff>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "BlackStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "2" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	7	</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>6</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "3" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.7</MaxSpeed>
+			<Enemy Type = "Blue">
+				<MinNumber>20</MinNumber>
+				<MaxNumber>25</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "4" Type = "Sharks">
+			<Enemy Type = "Black">
+				<MinSpeed>	0.5	</MinSpeed>
+				<MaxSpeed>	0.55	</MaxSpeed>
+				<ThemeRandom></ThemeRandom>
+				<MinNumber>7</MinNumber>
+				<MaxNumber>7</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "5" Type = "Sharks">
+			<Enemy Type = "RedStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	7	</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "BlackStealth">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>4</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+			
+		<Wave WaveNum = "6" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.45	</MaxSpeed>
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	7	</MaxDiff>
+				<MinNumber>2</MinNumber>
+				<MaxNumber>2</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Blue">
+				<MinNumber>2</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "7" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.7</MaxSpeed>
+			<Enemy Type = "White">
+				<MinNumber>7</MinNumber>
+				<MaxNumber>9</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>8</MinNumber>
+				<MaxNumber>8</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "8" Type = "Piranhas">
+			<MinSpeed>0.6</MinSpeed>
+			<MaxSpeed>0.7</MaxSpeed>
+			<Enemy Type = "WhiteStealth">
+				<MinNumber>4</MinNumber>
+				<MaxNumber>6</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Stealth">
+				<MinNumber>13</MinNumber>
+				<MaxNumber>13</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "9" Type = "Sharks">
+			<Enemy Type = "Red">
+				<MinDiff>	4	</MaxDiff>
+				<MaxDiff>	7	</MaxDiff>
+				<MinSpeed>	0.45	</MinSpeed>
+				<MaxSpeed>	0.5	</MaxSpeed>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>3</MaxNumber>
+			</Enemy>
+			<Enemy Type = "Black">
+				<MinSpeed>	0.5	</MinSpeed>
+				<MaxSpeed>	0.55	</MaxSpeed>
+				<MinDiff>	5	</MinDiff>
+				<MaxDiff>	5	</MaxDiff>
+				<MinNumber>4</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+		<Wave WaveNum = "10" Type = "Bonus">
+			<Enemy Type = "Standard">
+				<MinDiff>3</MinDiff>
+				<MaxDiff>5</MaxDiff>
+				<MinNumber>3</MinNumber>
+				<MaxNumber>5</MaxNumber>
+			</Enemy>
+		</Wave>
+		
+	</Level>
+	
+					
+</Config>

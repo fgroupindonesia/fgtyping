@@ -1,0 +1,6 @@
+<Properties>
+	<String id="ReferId"></String>
+	<Boolean id="NoReg">False</Boolean>
+	<String id="RegBtnText">Register</String>
+	<Boolean id="DontUpdate">False</Boolean>
+</Properties>
