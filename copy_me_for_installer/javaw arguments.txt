@@ -3,4 +3,10 @@ create a shortcut calling :
 - javaw.exe
 
 with arguments of :
--jar FGTyping.jar
+-jar dist\FGTyping.jar
+
+inside the Advanced Installer and set 
+- (minized)
+- icon
+
+Done!
